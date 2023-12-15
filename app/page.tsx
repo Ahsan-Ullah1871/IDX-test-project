@@ -15,6 +15,7 @@ export default function Home() {
         <button className=' p-2 min-w-[200px] rounded-md bg-red-400 text-white text-lg' onClick={()=>count>0&&setCount(count-1)}>Decrease</button>
         <button className=' p-2 min-w-[200px] rounded-md bg-green-400 text-white text-lg' onClick={()=>setCount(count+1)}>Increase</button>
       </div>
+     
     </div>
   )
 }
